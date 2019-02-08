@@ -12,5 +12,10 @@ pipeline {
         sh 'mvn -B'
       }
     }
+    stage('Run') {
+      steps {
+        echo 'asfasfa'
+      }
+    }
   }
 }
